@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0 (Python 3.10.4 on win32)" generated="20220929 19:14:43.699" rpa="false" schemaversion="3">
+<suite id="s1" name="Exercicios" source="C:\cursopha\robotframework\exercicios.robot">
+<test id="s1-t1" name="Contando de 0 a 9" line="11">
+<kw name="Contar de 0 a 9">
+<kw name="FOR ${count} IN RANGE">
+<arg>0</arg>
+<arg>9</arg>
+<msg timestamp="20220929 19:14:43.729" level="FAIL">No keyword with name 'FOR ${count} IN RANGE' found.</msg>
+<status status="FAIL" starttime="20220929 19:14:43.729" endtime="20220929 19:14:43.729"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20220929 19:14:43.730" endtime="20220929 19:14:43.730"/>
+</kw>
+<kw name="End" library="Reserved">
+<status status="NOT RUN" starttime="20220929 19:14:43.730" endtime="20220929 19:14:43.730"/>
+</kw>
+<status status="FAIL" starttime="20220929 19:14:43.726" endtime="20220929 19:14:43.731"/>
+</kw>
+<tag>CONTAR</tag>
+<status status="FAIL" starttime="20220929 19:14:43.726" endtime="20220929 19:14:43.733">No keyword with name 'FOR ${count} IN RANGE' found.</status>
+</test>
+<doc>Neste aqrquivo estarão presentes todos os exercicios de IF e FOR.</doc>
+<status status="FAIL" starttime="20220929 19:14:43.701" endtime="20220929 19:14:43.736"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">CONTAR</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Exercicios">Exercicios</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
