@@ -28,3 +28,6 @@ Percorrer itens de uma lista
     FOR ${FRUTA} IN @{FRUTAS}
         Log To Console  ${FRUTA}
     END    
+
+
+#comentário
